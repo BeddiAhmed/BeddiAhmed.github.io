@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home":     "Accueil",
+    "articles": "Articles",
+    "projects": "Projets",
+    "analysis": "Analyse",
+    "about":    "À propos"
+  },
+  "home": {
+    "tag":        "Économiste · Analyste de données · Tuteur",
+    "headline1":  "Recherche en Économie",
+    "headline2":  "Portée par les Données",
+    "bio":        "M.Sc. en Économie. Je publie des analyses empiriques sur les économies africaines, les marchés mondiaux et la réglementation financière — et j'aide les candidats à réussir les examens de licences OCRI via CIROPrep.",
+    "cta_articles": "Lire les articles",
+    "cta_projects": "Voir les projets",
+    "section_articles": "Derniers Articles",
+    "section_projects": "Projets en vedette",
+    "view_all_articles": "Tous les articles →",
+    "view_all_projects": "Tous les projets →"
+  },
+  "articles": {
+    "title":    "Articles",
+    "subtitle": "Analyses empiriques sur les économies africaines, les marchés énergétiques et le commerce mondial.",
+    "read_more": "Lire l'article →",
+    "min_read":  "min de lecture"
+  },
+  "projects": {
+    "title":    "Projets",
+    "subtitle": "Outils open-source, tableaux de bord et pipelines de données.",
+    "view_code":      "Voir le code →",
+    "view_live":      "Démo en direct →",
+    "view_dashboard": "Ouvrir le tableau de bord →"
+  },
+  "about": {
+    "title": "À propos",
+    "role":  "Économiste & Analyste de données"
+  },
+  "footer": {
+    "built":  "Construit avec Next.js · Déployé sur GitHub Pages",
+    "rights": "Tous droits réservés."
+  },
+  "lang_switch": "Langue"
+}

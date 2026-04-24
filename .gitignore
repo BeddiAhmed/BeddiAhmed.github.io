@@ -1,0 +1,39 @@
+# ── Build outputs ──────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+
+# ── Environment ────────────────────────────────────────────────────────────
+.env
+.env*.local
+
+# ── OS / editor noise ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── analysis/output — CSV policy ───────────────────────────────────────────
+# Ignore all CSVs in analysis/output/ by default (raw API dumps can be large).
+# Un-ignore only files confirmed under 5 MB. Do NOT un-ignore new files above
+# that threshold — add them to the "large files (ignored)" block below instead.
+analysis/output/**/*.csv
+analysis/output/*.csv
+
+# Tracked: small CSVs currently in the repo (all < 5 MB)
+!analysis/output/comtrade_exports.csv
+!analysis/output/comtrade_imports.csv
+!analysis/output/prices.csv
+!analysis/output/wb_macro.csv
+!analysis/output/price_analysis/stats_table.csv
+!analysis/output/mauritania_analysis/before_after.csv
+
+# Large files (ignored — add here if a future CSV exceeds 5 MB):
+# analysis/output/some_large_file.csv
+
+# ── analysis/scripts — always track ────────────────────────────────────────
+!analysis/scripts/
+
+# ── Public assets — always track ───────────────────────────────────────────
+!public/dashboards/dashboard.html
+!public/analysis-charts/

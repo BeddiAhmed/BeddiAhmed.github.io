@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home":     "Home",
+    "articles": "Articles",
+    "projects": "Projects",
+    "analysis": "Analysis",
+    "about":    "About"
+  },
+  "home": {
+    "tag":        "Economist · Data Analyst · Tutor",
+    "headline1":  "Economics Research",
+    "headline2":  "Powered by Data",
+    "bio":        "M.Sc. Economics. I publish data-driven analyses on African economies, global markets, and financial regulation — and help candidates pass CIRO licensing exams through CIROPrep.",
+    "cta_articles": "Read Articles",
+    "cta_projects": "View Projects",
+    "section_articles": "Latest Articles",
+    "section_projects": "Featured Projects",
+    "view_all_articles": "All Articles →",
+    "view_all_projects": "All Projects →"
+  },
+  "articles": {
+    "title":    "Articles",
+    "subtitle": "Data-driven analysis on African economies, energy markets, and global trade.",
+    "read_more": "Read article →",
+    "min_read":  "min read"
+  },
+  "projects": {
+    "title":    "Projects",
+    "subtitle": "Open-source tools, dashboards, and data pipelines.",
+    "view_code":    "View Code →",
+    "view_live":    "Live Demo →",
+    "view_dashboard": "Open Dashboard →"
+  },
+  "about": {
+    "title": "About",
+    "role":  "Economist & Data Analyst"
+  },
+  "footer": {
+    "built":    "Built with Next.js · Deployed on GitHub Pages",
+    "rights":   "All rights reserved."
+  },
+  "lang_switch": "Language"
+}
